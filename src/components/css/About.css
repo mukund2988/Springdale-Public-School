@@ -1,0 +1,47 @@
+/* General Styles */
+.about-card {
+    border: none;
+    border-radius: 12px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    background: #ffffff; 
+    margin-bottom: 30px; 
+    padding: 20px;  
+  }
+  
+  .section-heading {
+    font-family: 'Roboto', sans-serif; 
+    color: #343a40;  margin-bottom: 15px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+  }
+  
+  .section-text {
+    font-family: 'Lora', serif; 
+    color: #6c757d; 
+    font-size: 1.1rem; 
+    line-height: 1.8; 
+  }
+  
+  .facilities-list {
+    list-style: none; 
+    padding-left: 0; 
+  }
+  
+  .facilities-list li {
+    font-family: 'Lora', serif; 
+    color: #495057; 
+    font-size: 1.1rem; 
+    line-height: 1.6; 
+    margin-bottom: 10px; 
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .section-heading {
+      font-size: 1.5rem;
+    }
+  
+    .section-text,
+    .facilities-list li {
+      font-size: 1rem; }
+    }

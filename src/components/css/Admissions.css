@@ -1,0 +1,46 @@
+.admissions-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.section-heading {
+  font-family: 'Roboto', sans-serif;
+  color: #343a40;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-text {
+  font-family: 'Lora', serif;
+  color: #6c757d;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.dates-list .list-group-item {
+  font-family: 'Lora', serif;
+  color: #495057;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 10px 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .section-heading {
+      font-size: 1.5rem;
+  }
+
+  .section-text,
+  .dates-list .list-group-item {
+      font-size: 1rem;
+  }
+}
