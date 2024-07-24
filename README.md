@@ -22,10 +22,10 @@ This is a responsive website for Springdale Public School, showcasing informatio
 ## Setup and Installation
 
 1. **Clone the repository:**
-   **git clone <repository-url>**,
-   **cd myapp**,
-   **npm i**,
-   **npm start**,
+-   **git clone <repository-url>**,
+-   **cd myapp**,
+-   **npm i**,
+-  **npm start**,
 
 
 
