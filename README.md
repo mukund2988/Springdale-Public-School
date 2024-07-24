@@ -23,9 +23,9 @@ This is a responsive website for Springdale Public School, showcasing informatio
 
 1. **Clone the repository:**
    git clone <repository-url>
-   cd myapp
-   npm i
-   npm start
+   cd myapp,
+   npm i,
+   npm start,
 
 
 
